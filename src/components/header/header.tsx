@@ -1,6 +1,6 @@
 import Navbar from "../navbar/navbar";
 import { PrimaryButton } from "../button/primaryButton";
-import { FaArrowTrendUp } from "react-icons/fa6";
+import { FaGamepad } from "react-icons/fa6";
 export default function Header() {
   return (
     <header className="relative overflow-hidden font-mono h-screen">
@@ -13,7 +13,7 @@ export default function Header() {
             quia hic dolorum iste maxime nisi et nesciunt eligendi amet
             perferendis, expedita quod. Eius, delectus molestiae.
           </p>
-          <PrimaryButton onClicked={()=>console.log("test")} type="button" label="Play" icon={<FaArrowTrendUp />} />
+          <PrimaryButton onClicked={()=>console.log("test")} type="button" label="Play" icon={<FaGamepad />} />
         </div>
         <video
           src="/boom.mp4"
